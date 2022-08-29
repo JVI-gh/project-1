@@ -144,6 +144,18 @@ nav a {
   display: inline;
 }
 
+.dropdown {
+  display: none;
+  background-color: #264653;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+}
+
+.navList a:hover~.dropdown{
+  display: block !important;
+}
+
 /* End Header and nav */
 
 /* Styles for main contents */
@@ -248,3 +260,6 @@ footer li {
   padding: 1rem;
   display: inline;
 }
+
+
+

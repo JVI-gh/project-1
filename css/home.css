@@ -54,17 +54,17 @@ svg {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: transparent; 
+  background: transparent;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
 
 .center {
@@ -97,10 +97,6 @@ svg {
 @media only screen and (max-width: 768px) {
   .row {
     display: block !important;
-  }
-
-  .row > * {
-    margin-top: 2rem !important;
   }
 }
 
@@ -135,25 +131,50 @@ nav a {
 }
 
 .navList {
-  height: 65px;
-  padding: 0px;
+  height: 65px !important;
+  padding: 0px !important;
   display: flex;
 }
 
-.navList li {
-  display: inline;
-}
-
-.dropdown {
-  display: none;
-  background-color: #264653;
+.menu-area a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
-  position: absolute;
+  background: #2a9d8f;
+  height: 65px;
+  padding: 16px 0px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.menu-area a:hover {
+  background: #e76f51;
+  color: #fff;
+}
+.menu-area ul {
+  list-style: none;
+  display: flex;
+}
+.menu-area li {
+  position: relative;
+  width: 100%;
   text-align: center;
 }
-
-.navList a:hover~.dropdown{
-  display: block !important;
+.menu-area li:hover .dropdown-1 > li {
+  display: block;
+  top: 0;
+}
+.dropdown-1 li {
+  display: none;
+  position: relative;
+}
+.dropdown-1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #264653;
 }
 
 /* End Header and nav */
@@ -219,7 +240,6 @@ p {
   width: 200px;
 }
 
-
 .card {
   background-color: #264653;
   border-radius: 0.5rem;
@@ -229,6 +249,7 @@ p {
 
 .card:hover {
   margin: 0.2rem;
+  background-color: #e9c46a;
 }
 
 .cardTitle {
@@ -260,6 +281,3 @@ footer li {
   padding: 1rem;
   display: inline;
 }
-
-
-

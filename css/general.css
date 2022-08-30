@@ -47,6 +47,27 @@ svg {
   fill: white;
 }
 
+button {
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 24px;
+  background-color: #f4a261;
+  color: #fff;
+  text-align: center;
+  border: 3px solid #e76f51 ;
+  font-family: 'Indie Flower', cursive;
+
+  background: linear-gradient(to left, #f4a261 50%, #e76f51 50%) right;
+  background-size: 200%;
+}
+
+button:hover {
+  background-color: #e76f51;
+  cursor: pointer;
+  background-position: left;
+  padding: 1.2rem 2.2rem;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;

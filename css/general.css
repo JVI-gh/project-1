@@ -68,6 +68,59 @@ button:hover {
   padding: 1.2rem 2.2rem;
 }
 
+label {
+  font-size: 24px;
+  margin-left: 17.5%;
+}
+
+input {
+  border:2px solid #888;
+  padding: 1rem;
+  width: 60%;
+  min-width: 60%;
+  max-width: 60%;
+  border-radius: 0.1rem;
+}
+
+textarea, select {
+  margin-left: 17.5%;
+  padding: 1rem;
+  min-width: 60%;
+  max-width: 60%;
+  border:2px solid #888;
+
+}
+
+select {
+  margin-left: 20%;
+}
+
+input, label {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+input, textarea, select {
+  color: #264653;
+}
+
+input[type="submit"] {
+  border-radius: 0.5rem;
+  background-color: #e9c46a;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+
+  background: linear-gradient(to left, #f4a261 50%, #e76f51 50%) right;
+  background-size: 200%;
+}
+
+input[type="submit"]:hover {
+  background-color: #e76f51;
+  background-position: left 0;
+}
+
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;

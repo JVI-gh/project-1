@@ -54,8 +54,8 @@ button {
   background-color: #f4a261;
   color: #fff;
   text-align: center;
-  border: 3px solid #e76f51 ;
-  font-family: 'Indie Flower', cursive;
+  border: 3px solid #e76f51;
+  font-family: "Indie Flower", cursive;
 
   background: linear-gradient(to left, #f4a261 50%, #e76f51 50%) right;
   background-size: 200%;
